@@ -6,6 +6,7 @@ export class UserReportEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
+  
   @Column()
   userId: number;
 
